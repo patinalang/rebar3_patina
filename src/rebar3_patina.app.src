@@ -1,0 +1,7 @@
+{application, rebar3_patina, [
+    {description, "A rebar3 plugin that builds Patina packages"},
+    {vsn, "0.0.0"},
+    {modules, []},
+    {registered, []},
+    {applications, [kernel, stdlib]}
+]}.
