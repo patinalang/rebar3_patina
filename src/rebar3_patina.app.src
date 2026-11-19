@@ -3,5 +3,15 @@
     {vsn, "0.0.0"},
     {modules, []},
     {registered, []},
-    {applications, [kernel, stdlib]}
+    {applications, [kernel, stdlib]},
+    {licenses, ["Apache-2.0", "MIT"]},
+    {links, [{"GitHub", "https://github.com/patinalang/rebar3_patina"}]},
+    {files, [
+        "LICENSE-APACHE",
+        "LICENSE-MIT",
+        "README.md",
+        "rebar.config",
+        "src/*.app.src",
+        "src/*.erl"
+    ]}
 ]}.

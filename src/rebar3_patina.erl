@@ -1,4 +1,5 @@
 -module(rebar3_patina).
+-moduledoc false.
 
 -export([init/1]).
 

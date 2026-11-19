@@ -19,7 +19,7 @@ To use the Patina compiler, add the following to your `rebar.config`:
 
 For multiple Patina packages in the source tree, each is built after its dependencies.
 Make sure the dependencies are listed in each `Patina.toml`!
-The relationships between the packages of `patina_packages` should be specified as `path` deps:
+The relationships between the in-tree packages should be specified as `path` deps:
 
 ```toml
 [dependencies]
@@ -27,3 +27,8 @@ my_helpers = { path = "../my_helpers" }
 ```
 
 Any other dependency will be resolved from `rebar.config`.
+
+## License
+
+Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or
+[MIT license](LICENSE-MIT).
